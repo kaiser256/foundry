@@ -37,7 +37,7 @@ once_cell = "1"
 # EVM
 bytes = "1"
 hashbrown = { version = "0.13", features = ["serde"] }
-revm = { version = "3", default-features = false, features = [
+revm = { version = "3.3.0", default-features = false, features = [
   "std",
   "serde",
   "memory_limit",
